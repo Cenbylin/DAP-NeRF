@@ -1,15 +1,15 @@
 # DAP-NeRF
 
-> Dynamic Appearance Particle Neural Radiance Field
-> [Paper](https://arxiv.org/abs/2310.07916)&nbsp;/
+> __Dynamic Appearance Particle Neural Radiance Field__  
+> __[Paper](https://arxiv.org/abs/2310.07916)__
 
----------------------------------------------------
 ![block](./imgs/render_traj.gif)
 
 DAP-NeRF introduces particle-based representation to model the motions of visual elements in a dynamic 3D scene. DAP-NeRF consists of superposition of a static field and a dynamic field. The dynamic field is quantised as a collection of *appearance particles*, which carries the visual information of a small dynamic element in the scene and is equipped with a motion model. All components, including the static field, the visual features and motion models of the particles, are learned from monocular videos without any prior geometric knowledge of the scene.
 
 ## Notes
 **TODO:** Clean codes thoroughly.
+
 **8/6/2024:** Codes realeased.
 
 ## Requirements
@@ -34,7 +34,7 @@ The dataset provided in [D-NeRF](https://github.com/albertpumarola/D-NeRF) is us
 **For HyperNeRF dataset (vrig):**  
 The dataset provided in [HyperNeRF](https://github.com/google/hypernerf) is used. You can download scenes from [Hypernerf Dataset](https://github.com/google/hypernerf/releases/tag/v0.1) and organize them as [Nerfies](https://github.com/google/nerfies#datasets).
 
-**For NHR dataset:**
+**For NHR dataset:**  
 The dataset provided in [NHR](https://wuminye.github.io/NHR/datasets.html) is used. The processed scenes can be downloaded from [here](https://drive.google.com/drive/folders/16-sNCc28G8M6MfE6n79XlusZkE9K9Je_?usp=sharing).
 
 ## Training & Evaluation
