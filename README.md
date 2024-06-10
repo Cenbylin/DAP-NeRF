@@ -11,7 +11,7 @@ DAP-NeRF introduces particle-based representation to model the motions of visual
 ## Notes
 **TODO:** Clean codes thoroughly.
 
-**8/6/2024:** Codes realeased.
+**10/6/2024:** Codes realeased.
 
 ## Requirements
 ```shell
