@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lego",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_nhr_dap.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--config", "configs/nerf-p/lego.py",
+                "--render_test",
+                "--eval_psnr",
+            ],
+        },
+    ]
+}
