@@ -1,7 +1,8 @@
 # DAP-NeRF
 
 > __Dynamic Appearance Particle Neural Radiance Field__  
-> __[Paper](https://arxiv.org/abs/2310.07916)__
+> Ancheng Lin, Yusheng Xiang, Jun Li, Mukesh Prasad
+> __[Paper (arxiv)](https://arxiv.org/abs/2310.07916)__
 
 ![block](./imgs/render_traj.gif)
 
