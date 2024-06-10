@@ -1,4 +1,4 @@
-c_base_ = './default.py'
+_base_ = './default.py'
 
 expname = 'nhr-p/sport3'
 basedir = './logs/nhr'
